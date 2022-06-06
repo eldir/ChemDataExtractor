@@ -25,8 +25,20 @@ setup(
     entry_points={'console_scripts': ['cde = chemdataextractor.cli:cli']},
     tests_require=['pytest'],
     install_requires=[
-        'appdirs', 'beautifulsoup4', 'click', 'cssselect', 'lxml', 'nltk', 'pdfminer.six', 'python-dateutil',
-        'requests', 'six', 'python-crfsuite', 'DAWG', 'PyYAML'
+        'appdirs',
+        'beautifulsoup4',
+        'click',
+        'cssselect',
+        'lxml',
+        'nltk',
+        'pdfminer.six',
+        'python-dateutil',
+        'requests',
+        'six',
+        'python-crfsuite',
+        'DAWG @ git+https://github.com/ti250/DAWG-patched.git'
+        'DAWG',
+        'PyYAML'
     ],
     classifiers=[
         'Intended Audience :: Developers',
