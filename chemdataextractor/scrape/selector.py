@@ -11,11 +11,11 @@ from __future__ import absolute_import
 from __future__ import division
 from __future__ import print_function
 from __future__ import unicode_literals
-from collections import Sequence
+from collections.abc import Sequence
 from copy import deepcopy
 import logging
 import re
-from bs4 import UnicodeDammit
+from bs4.dammit import UnicodeDammit
 
 from lxml.etree import XMLParser, fromstring, tostring
 from lxml.html import HTMLParser
