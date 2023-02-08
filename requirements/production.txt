@@ -1,4 +1,4 @@
--e git+https://github.com/ti250/DAWG-patched.git#egg=DAWG
+-e git+https://github.com/iliadmitriev/DAWG.git@fix_py_3_10#egg=DAWG
 
 appdirs>=1.4.0
 beautifulsoup4>=4.5.3

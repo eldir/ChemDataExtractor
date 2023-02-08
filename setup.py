@@ -36,7 +36,7 @@ setup(
         'requests',
         'six',
         'python-crfsuite',
-        'DAWG @ git+https://github.com/ti250/DAWG-patched.git',
+        'DAWG @ git+https://github.com/iliadmitriev/DAWG.git@fix_py_3_10',
         'PyYAML'
     ],
     classifiers=[
